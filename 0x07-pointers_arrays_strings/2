@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main( )
+{
+	char age;
+	printf("Enter your age:\n");
+	scanf("%c", &age);
+	printf("Your age = %c", age);
+}
