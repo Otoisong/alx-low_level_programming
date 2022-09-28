@@ -3,7 +3,7 @@
 /**
  * _memcpy - copies memory area from src to dest
  * @dest: destination
- * @scr: source
+ * @src: source
  * @n: number of bytes to use
  *
  * Return: dest
