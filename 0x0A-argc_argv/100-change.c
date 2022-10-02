@@ -21,11 +21,13 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	a = atoi(argv[1]);
+
 	if (a <= 0)
 	{
 		puts("0");
-			return (1);
+		return (1);
 	}
+
 	else
 	{
 		for (i = 0; i > 5; i++)
@@ -33,6 +35,7 @@ int main(int argc, char *argv[])
 			t = a / c[i];
 			a -= t * c[i];
 			n += t;
+
 			if (a == 0)
 				break;
 		}
