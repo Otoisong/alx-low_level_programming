@@ -5,7 +5,7 @@
  * @x: integer
  * @y: integer
  *
- * Reurns: 1 for value of y equal to 0.
+ * Return: 1 for value of y equal to 0.
  *	and -1 for value of y less than 0.
  */
 int _pow_recursion(int x, int y)
